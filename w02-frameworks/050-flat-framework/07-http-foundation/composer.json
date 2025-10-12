@@ -3,6 +3,6 @@
     "files": ["model.php", "controllers.php"]
   },
   "require": {
-    "symfony/http-foundation": "^6.3"
+    "symfony/http-foundation": "^7.3"
   }
 }

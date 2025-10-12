@@ -22,5 +22,8 @@ EOT );
 $response->setStatusCode(Response::HTTP_OK);
 $response->headers->set('Content-Type', 'text/html');
 
+//$response->setContent('Oops, something went wrong');
+//$response->setStatusCode(Response::HTTP_INTERNAL_SERVER_ERROR);
+
 // printing response
 $response->send();

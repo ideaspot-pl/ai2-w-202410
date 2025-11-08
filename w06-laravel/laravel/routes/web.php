@@ -14,3 +14,5 @@ Route::get('/response/response', [\App\Http\Controllers\ResponseController::clas
 Route::get('/response/eloquent', [\App\Http\Controllers\ResponseController::class, 'eloquentModel']);
 
 Route::get('/view/example', [\App\Http\Controllers\ViewController::class, 'example']);
+
+Route::get('/weather/location/{locationId}', [\App\Http\Controllers\WeatherController::class, 'weatherForLocation']);
